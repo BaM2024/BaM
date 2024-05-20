@@ -116,9 +116,6 @@ class SSLoss(nn.Module):
         # Re-norm the given noise frequency list and compensate words with
         # extremely low prob for numeric stability
         self.update_noise(noise)
-
-        # @todo quick path to 'full' mode
-        # @todo if noise_ratio is 1, use all items as samples
         self.noise_ratio = noise_ratio
         self.bce_with_logits = nn.BCEWithLogitsLoss(reduction='none')
         self.ce = nn.CrossEntropyLoss(reduction='none')
