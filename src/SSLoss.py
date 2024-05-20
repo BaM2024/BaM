@@ -176,7 +176,7 @@ class SSLoss(nn.Module):
         )
         return target_score.view(original_size), noise_score.view(*original_size, -1)
 
-    # Compute the sampled softmax loss based on the tensorflow's impl
+    # Compute the sampled softmax loss based on the tensorflow's implementation
     def sampled_softmax_loss(self, logit_target_in_model, logit_noise_in_model, logit_noise_in_noise, logit_target_in_noise):
         ori_logits = torch.cat([logit_target_in_model.unsqueeze(2), logit_noise_in_model], dim=2)
         q_logits = torch.cat([logit_target_in_noise.unsqueeze(2), logit_noise_in_noise], dim=2)
