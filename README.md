@@ -7,7 +7,7 @@ This project provides executable source code with adjustable arguments and prepr
 ## Prerequisites
 
 - Python 3.8+
-- [PyTorch](https://pytorch.org/)
+- [PyTorch](https://pytorch.org/) 1.12.1
 - [NumPy](https://numpy.org/)
 - [tqdm](https://tqdm.github.io/)
 
