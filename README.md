@@ -52,13 +52,13 @@ There are 6 arguments you can control:
 
 For example, you can train the model for Books dataset with BaM_p and tau of 1.1 on ComiRec at 'bam_p' by following code:
 ```
-python main.py --path bam_p --dataset books --model comirec --selection p --tau 1
+python src/main.py --path bam_p --dataset books --model comirec --selection p --tau 1
 ```
 
 
 You can evaluate the trained_model by running 'main.py' with the argument 'test' as True:
 ```
-python main.py --path bam_p --dataset books --model comirec --selection p --tau 1 --test True
+python src/main.py --path bam_p --dataset books --model comirec --selection p --tau 1 --test True
 ```
 
 ## Datasets
