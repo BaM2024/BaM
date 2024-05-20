@@ -53,7 +53,7 @@ def to_tensor(var, device):
 
 
 '''
-data partition in to train, valid, and test dataset
+data partition into train, valid, and test dataset
 
 input:
     * dataset: full dataset
