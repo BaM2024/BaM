@@ -69,4 +69,4 @@ Preprocessed data are included in the data directory.
 |Books (books) | 14,905 | 13,642 | 626,702 | 0.31% |
 |Electronics (electronics)| 64,142 | 31,142 |  1,475,538 | 0.07% |
 
-The original datasets are available at https://mengtingwan.github.io/data/goodreads.html.
+The original datasets are available at https://amazon-reviews-2023.github.io.
